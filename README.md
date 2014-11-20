@@ -4,6 +4,8 @@ Compiler: Visual Studio 2010
 
 Target Platform: Win32
 
+Sample Parameters: .\data\dictionary.txt .\data\board_1.txt results.txt
+
 Improvements
 * can be any width & depth for a board as long as all widths are the same length
 * attempts to correct in coming data from dictionary (trim, case, reject non-alpha words)
